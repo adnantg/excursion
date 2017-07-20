@@ -1,14 +1,14 @@
 h1 {
-  font-family: Verdana;
   font-weight: normal;
   font-size: 50px;
   color: White;
-  text-align: center;
 }
 
 body {
   background-color: Black;
   text-align: center;
+  font-family: Verdana;
+  display: block;
 }
 
 #link {
@@ -17,8 +17,18 @@ body {
 }
 
 h2{
-  font-family: Verdana;
   font-weight: 300;
   color: white;
-  font-size: 42px;  
+  font-size: 42px;
+}
+
+#text {
+  color: Gray;
+  font-size: 21px;
+}
+
+h3 {
+  color: Gray;
+  text-align: right;
+  font-weight: normal;
 }
